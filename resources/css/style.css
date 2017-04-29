@@ -1,0 +1,197 @@
+html {
+  font-size: 18px;
+  background-color: white;
+}
+body {
+  font-family: Helvetica, sans-serif;
+  line-height: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  margin:0;
+}
+
+.company {
+    background-color: black;
+    color: white;
+    padding-left: 5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.company img {
+  height: 1.5rem;
+  padding-right: 1rem;
+}
+
+.bannerinfo {
+  background-color: black;
+  color: white;
+  border-radius:0.5rem;
+  color: white;
+  width: 20rem;
+  padding: 2rem 3rem;
+  position: relative;
+  top: 9rem;
+}
+
+h1,h4 {
+  font-weight: bold;
+  font-family: helvetica;
+}
+
+.bannerinfo h1 {
+  font-size: 2rem;
+  padding: 2rem 0 .25 3rem;
+  line-height: 1.2em;
+}
+
+nav,a{
+  background-color: firebrick;
+  background-size: cover;
+  background-position: center;
+  hieght: 25rem;
+  color: white;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 0;
+  list-style: none;
+}
+
+.banner {
+  background-size: cover;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 25rem;
+}
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+
+}
+.product-image img {
+  max-height: 9rem;
+  padding: 2rem;
+  }
+
+.product-image {
+  border: 4px solid black;
+  height: 13rem;
+  display: inline-block;
+  width: 30%;
+  margin: 3rem 0;
+}
+
+.description {
+  color: white;
+  background-color: black;
+  padding: .5rem;
+  display: block;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.info-title {
+  color: white;
+  background-color: black;
+  padding: 1rem 2rem;
+
+}
+.store-info {
+  display: inline-block;
+  width: 35%;
+  margin: 3rem 0;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  height: 5rem;
+  text-align: left;
+  padding-top: 2rem;
+  padding-left: 15rem;
+}
+
+@media only screen and (min-width: 470px) and (max-width: 1024px) {
+  body{
+    font-size: 16px;
+    }
+  nav .container {
+    display: none;
+    }
+  nav .mobile-container {
+    display: block;
+    text-align: center;
+    }
+  .glasses {
+    display: none
+    }
+  .product-image {
+     max-width: 47%;
+   }
+ }
+ @media only screen and (max-width: 470px) {
+  .banner {
+    height: 15rem;
+  }
+   .banner .container {
+     padding-top: 10rem;
+   }
+  .bannerinfo {
+    width: 100%;
+    padding: 1rem 2rem;
+    }
+    .bannerinfo h1 {
+    font-size: 1rem;
+    }
+    .bannerinfo h4 {
+      font-size: 0.77rem;
+    }
+  .glasses {
+    display: none;
+    }
+  .watches {
+    display: none;
+    }
+   .pens {
+   width: 90%auto;
+   }
+   .info-title {
+     width: 90%;
+     margin: .5rem auto;
+   }
+   footer {
+     text-align: center;
+   }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
